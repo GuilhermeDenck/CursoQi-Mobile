@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/fundo">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="185dp"
+        android:layout_height="125dp"
+        android:background="@drawable/logo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/jett"
+        android:layout_width="@dimen/width_Logo"
+        android:layout_height="@dimen/height_logo"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/jett"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/raze"
+        android:layout_width="@dimen/width_Logo"
+        android:layout_height="@dimen/height_logo"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/raze"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.499"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/reyna"
+        android:layout_width="@dimen/width_Logo"
+        android:layout_height="@dimen/height_logo"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/reyna"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/sage"
+        android:layout_width="@dimen/width_Logo"
+        android:layout_height="@dimen/height_logo"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/sage"
+        app:layout_constraintBottom_toTopOf="@+id/sova"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/jett" />
+
+    <Button
+        android:id="@+id/sova"
+        android:layout_width="@dimen/width_Logo"
+        android:layout_height="@dimen/height_logo"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/sova"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <Button
+        android:id="@+id/breach"
+        android:layout_width="@dimen/width_Logo"
+        android:layout_height="@dimen/height_logo"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/breach"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <Button
+        android:id="@+id/cypher"
+        android:layout_width="@dimen/width_Logo"
+        android:layout_height="@dimen/height_logo"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/cypher"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/omen"
+        android:layout_width="@dimen/width_Logo"
+        android:layout_height="@dimen/height_logo"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/omen"
+        app:layout_constraintBottom_toTopOf="@+id/cypher"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/reyna" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+

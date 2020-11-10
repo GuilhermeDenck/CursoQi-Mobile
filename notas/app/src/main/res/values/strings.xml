@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Anotações</string>
+    <string name="titulo">Annotations</string>
+    <string name="iniciar">start</string>
+    <string name="nome">type the name of the note</string>
+    <string name="criar">Create note</string>
+    <string name="text">type note</string>
+    <string name="next">Return to the home screen</string>
+
+    <string-array name="relevancia">
+        <item> define the relevance of this annotation </item>
+        <item> Low </item>
+        <item> Medium  </item>
+        <item> High </item>
+    </string-array>
+</resources>

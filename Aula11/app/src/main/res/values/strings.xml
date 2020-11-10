@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Ultimo herói da terra</string>
+    <string name="edittext_name">Type your name</string>
+    <string name="edittext_afe">Type our age</string>
+</resources>

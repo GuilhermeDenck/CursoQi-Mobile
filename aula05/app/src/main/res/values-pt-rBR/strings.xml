@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">aula05</string>
+
+    <string name="asta">Eu vou escalar até o topo porque os nossos sonhos são feitos em cima daquilo que realizamos. - Asta</string>
+    <string name="itachi1"> Se todos soubessem o peso de suas palavras dariam mais valor ao silêncio. - Itachi </string>
+    <string name="itachi2"> O medo de arriscar é o que te impede de evoluir. - Itachi </string>
+    <string name="pain"> Enquanto não conhecer a dor de uma pessoa, não saberá quem ela é. Ainda que a conheça, não poderá compreender. - Pain </string>
+    <string name="zenitsu"> Se você só é bom em uma coisa, torne-se mestre dela. - Zenitsu Agatsuma </string>
+</resources>
